@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *alp = "abcdefghijklmnopqrstuvwxyz";
+	char *alp = "abcdefghijklmnopqrstuvwxyz\n";
 	int i = 0;
 
 	while (alp[i] != '\0')
