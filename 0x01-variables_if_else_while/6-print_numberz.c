@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Sucess)
+ */
+int main(void)
+{
+	int a = 0;
+
+	while (a < 10)
+	{
+		putchar(a);
+		a++;
+	}
+
+	return (0);
+}
