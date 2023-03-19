@@ -10,7 +10,7 @@ int main(void)
 {
 	char *mssg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, mssg, 43);
+	write(2, mssg, 59);
 
 	return (1);
 }
