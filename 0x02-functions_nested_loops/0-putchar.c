@@ -1,8 +1,5 @@
 #include "main.h"
 
-/* function declaration*/
-int _putchar(char c);
-
 /**
  * main -Entry point
  *
