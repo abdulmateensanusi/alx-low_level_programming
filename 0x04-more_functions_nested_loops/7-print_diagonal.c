@@ -15,9 +15,12 @@ void print_diagonal(int n)
 	{
 		while (freq <= n)
 		{
-			for (i = 1; i <= freq; i++)
+			if (freq != 1)
 			{
-				_putchar(' ');
+				for (i = 1; i < freq; i++)
+				{
+					_putchar(' ');
+				}
 			}
 			_putchar(92);
 			_putchar('\n');
