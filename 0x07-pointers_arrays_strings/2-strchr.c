@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr - Returns a pointer to the first occurrence of the
@@ -11,7 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-	char *match = NULL;
+	char *match = "NULL";
 
 	while (*s != '\0')
 	{
