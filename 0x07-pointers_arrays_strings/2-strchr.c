@@ -8,25 +8,17 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i = 0;
 	char *match = "NULL";
 
 	while (*s != '\0')
 	{
 		if (c == *s)
 		{
-			i = 1;
+			match = s;
 			break;
 		}
 		s++;
 	}
 
-	if (i == 0)
-	{
-		return (match);
-	}
-	else
-	{
-		return (s);
-	}
+	return (match);
 }
