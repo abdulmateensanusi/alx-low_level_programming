@@ -31,7 +31,7 @@ char *_strstr(char *haystack, char *needle)
 					{
 						break;
 					}
-					if ( k == (length - 1))
+					if (k == (length - 1))
 					{
 						match = &haystack[j];
 						break;
